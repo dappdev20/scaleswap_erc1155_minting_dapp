@@ -1,0 +1,145 @@
+.fullGetAlert {
+    text-align: center;
+}
+
+.fullGetAlert h1 {
+    font-weight: 800;
+    font-size: 48px;
+    color: #F29200;
+}
+
+.fullGetAlert h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    margin-top: -13px;
+    margin-bottom: 15px;
+}
+
+.fullGetAlert p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    width: 540px;
+    margin-left: 31%;
+    margin-bottom: 27px;
+    /* letter-spacing: 3px; */
+}
+
+.inputBoxArea {
+
+    margin-left: 35%;
+
+
+}
+
+.inputBoxArea button {
+    outline: 1px solid rgba(255, 255, 255, 0.718);
+    background-color: #000000;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: -10% !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inputBoxArea button:hover {
+    color: white;
+}
+
+.inputBoxArea input {
+    border-radius: 50px;
+    border-left: 50px !important;
+    width: 45%;
+    border: none;
+    padding: 13px 0 13px 35px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: white !important; */
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ACACAC;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-weight: 400;
+    font-size: 14px;
+    color: #ACACAC;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-weight: 400;
+    font-size: 14px;
+    color: #ACACAC;
+}
+
+
+.forMobileVersion input {
+    width: 75%;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.forMobileVersion button{
+    width: 75%;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 30px;
+    margin-top: -5px;
+}
+.forMobileVersion {
+    /* display: none; */
+    display: none;
+}
+
+
+@media only screen and (max-width:1468px) {
+    
+    /* .forMobileVersion {
+        display: none;
+        display: none;
+    } */
+    .inputBoxArea{
+        display: block;
+    }
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .oneHr{
+        display: none;
+    }
+    .TwoHr{
+        display: none;
+    }
+    .fullGetAlert p {
+        width: 320px;
+        margin-left: 12%;
+        margin-bottom: 27px;
+
+    }
+
+    .inputBoxArea {
+        display: none;
+    }
+    .forMobileVersion{
+        display: block;
+    }
+    
+
+}
